@@ -209,6 +209,7 @@ func (i *Info) String() string {
 	_, _ = fmt.Fprintf(w, "GoVersion:\t%s\n", i.GoVersion)
 	_, _ = fmt.Fprintf(w, "Compiler:\t%s\n", i.Compiler)
 	_, _ = fmt.Fprintf(w, "Platform:\t%s\n", i.Platform)
+	_, _ = fmt.Fprintf(w, "RhtasVersion:\t%s\n", i.RhtasVersion)
 
 	_ = w.Flush()
 	return b.String()
